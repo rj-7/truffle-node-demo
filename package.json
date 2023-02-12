@@ -1,0 +1,22 @@
+{
+  "name": "truffle-backend",
+  "version": "1.0.0",
+  "description": "a simple medical bill upload service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "rakshith_jayanna",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.3",
+    "helmet": "^6.0.1",
+    "mongodb": "^5.0.1",
+    "mongodb-memory-server": "^8.11.4",
+    "morgan": "^1.10.0"
+  }
+}
