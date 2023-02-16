@@ -71,7 +71,7 @@ const postBill = async (req, res, next) => {
     }
     try {
         await postBillService.createBill(content)
-        res.sendStatus(201)
+        res.status(201).json({"message":"Bill uploaded successfully"})
         next()
     } catch (e) {
         console.log(e.message)

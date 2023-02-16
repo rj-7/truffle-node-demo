@@ -4,7 +4,7 @@
   "description": "a simple medical bill upload service",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node app.js"
   },
   "author": "rakshith_jayanna",
@@ -17,6 +17,12 @@
     "helmet": "^6.0.1",
     "mongodb": "^5.0.1",
     "mongodb-memory-server": "^8.11.4",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "jest": "^29.4.3",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "verbose": true,
+    "testMatch": ["**/tests/*.js"]
   }
 }
